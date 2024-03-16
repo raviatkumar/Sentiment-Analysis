@@ -1,5 +1,8 @@
 # Project Name : Sentiment Analysis
 
+![Alt text](https://github.com/raviatkumar/Sentiment-Analysis/assets/125804537/583f8719-5d6e-462e-a106-f5a95a0381c1)
+
+
 ### **Summary:**
 
 The project involves sentiment analysis on the IMDb dataset, which comprises 50,000 movie reviews. The dataset is structured for binary sentiment classification, with 25,000 reviews designated for training and an additional 25,000 for testing. The objective is to predict the sentiment of movie reviews, distinguishing between positive and negative sentiments.
