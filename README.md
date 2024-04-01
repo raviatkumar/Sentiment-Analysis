@@ -22,6 +22,21 @@ uvicorn app.main:app
 
 Visit [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) from your browser to access Swagger. You can upload an image through the predict endpoint and receive a JSON response. Use the `--reload` argument to see immediate effects when changing code.
 
+#### How to Run the App with Docker
+
+Ensure you are in the project root directory and Docker is running. Use the following command to create a Docker image:
+
+```bash
+docker build -t image-classifier-api .
+```
+
+Once the image is built successfully, run the container with the following commands:
+
+```bash
+docker run -p 8000 image-classifier-api
+```
+
+Visit http://127.0.0.1:8000/docs from your browser to access Swagger. You can upload an image through the predict endpoint and receive a JSON response.
 
 ### **Summary:**
 
