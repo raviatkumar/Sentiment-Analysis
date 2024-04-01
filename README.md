@@ -38,7 +38,7 @@ docker run -p 8000 image-classifier-api
 
 Visit http://127.0.0.1:8000/docs from your browser to access Swagger. You can upload an image through the predict endpoint and receive a JSON response.
 
-### **Summary:**
+### **Problem Statement:**
 
 The project involves sentiment analysis on the IMDb dataset, which comprises 50,000 movie reviews. The dataset is structured for binary sentiment classification, with 25,000 reviews designated for training and an additional 25,000 for testing. The objective is to predict the sentiment of movie reviews, distinguishing between positive and negative sentiments.
 
