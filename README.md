@@ -2,8 +2,6 @@
 
 ![Alt text](https://github.com/raviatkumar/Sentiment-Analysis/assets/125804537/583f8719-5d6e-462e-a106-f5a95a0381c1)
 
-### how run this app
-
 #### Installation
 
 To install the required packages for this project, use the following command after creating a virtual environment:
