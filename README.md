@@ -2,6 +2,26 @@
 
 ![Alt text](https://github.com/raviatkumar/Sentiment-Analysis/assets/125804537/583f8719-5d6e-462e-a106-f5a95a0381c1)
 
+#### Installation
+
+To install the required packages for this project, use the following command after creating a virtual environment:
+
+```bash
+pip install -r requirements.txt
+```
+
+*Note: The model was trained on Google Colab with GPU support.*
+
+#### How to Run the App
+
+After installing the necessary packages, run the following command from the project root directory to start the app:
+
+```bash
+uvicorn app.main:app
+```
+
+Visit [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) from your browser to access Swagger. You can upload an image through the predict endpoint and receive a JSON response. Use the `--reload` argument to see immediate effects when changing code.
+
 
 ### **Summary:**
 
